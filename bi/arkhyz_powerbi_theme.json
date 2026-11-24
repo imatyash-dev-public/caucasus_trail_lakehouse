@@ -1,0 +1,7 @@
+{
+    "name": "Arkhyz Alpine",
+    "dataColors": ["#1B4332", "#00B4D8", "#F77F00", "#2B2D42", "#8AB17D", "#E9C46A"],
+    "background": "#FFFFFF",
+    "foreground": "#2B2D42",
+    "tableAccent": "#1B4332"
+}

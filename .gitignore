@@ -1,0 +1,34 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.hadoop/
+.ivy2/
+spark-warehouse/
+metastore_db/
+derby.log
+.vscode/
+.idea/
+.kilo/
+
+# Heavy data — regenerate via stage1/stage2/stage3
+data/raw/
+data/processed/
+data/gold/
+data/bronze/
+data/silver/
+data/sample/processed/
+data/sample/gold/
+
+# Built artifacts — regenerate via stage4 / notebook builder
+bi/arkhyz_interactive_dashboard.html
+bi/figures/
+notebooks/*.ipynb
+
+# Internal working docs
+plan.md
+
+# Python virtualenvs
+venv/
+.venv/
+env/
+*.egg-info/
